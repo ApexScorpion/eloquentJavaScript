@@ -44,3 +44,40 @@ do {
 yourName = prompt("Who are you?");
 } while (!yourName);
 console.log(yourName);
+
+
+//switch
+
+switch(prompt("what is the weather like")){
+    case "rainy":
+        console.log("Remember to bring an umbrella.");
+    break;
+    case "sunny":
+        console.log("Dress lightly.");
+    case "cloudy":
+    console.log("Go outside.");
+    break;
+    default:
+        console.log("Unknown weather type!");
+    break;
+}
+switch (expression) {
+    case value1:
+      //Statements executed when the
+      //result of expression matches value1
+      break;
+    case value2:
+      //Statements executed when the
+      //result of expression matches value2
+      break;
+    
+    case valueN:
+      //Statements executed when the
+      //result of expression matches valueN
+      break;
+    default:
+      //Statements executed when none of
+      //the values match the value of the expression
+      break;
+  }
+

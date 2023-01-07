@@ -52,4 +52,3 @@ y.value;
 for (let key in circle){
     console.log(key), circle[key];
 }
- 
