@@ -13,3 +13,12 @@ const power = function(base, exponent){//(parameters are internal variables)
 }
 console.log(power(2,10));
 //1024
+
+//changing value
+let launchMissiles = function() {
+        missileSystem.launch("now");
+};
+if (safeMode) {
+    launchMissiles = function() {/* do nothing */};
+}
+    
